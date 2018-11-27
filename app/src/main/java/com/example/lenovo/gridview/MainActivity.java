@@ -34,9 +34,6 @@ public class MainActivity extends Activity {
             int imageId = data.getIntExtra("imageID",R.drawable.ic_launcher_background);
             Log.i("resultIimageId---->", String.valueOf(imageId));
             image1.setImageResource(imageId);
-            Log.i("fasdf","fasdfasd");
-            Log.i("22222","asasdf");
-            Log.i("33333","asdfasdf");
         }
     }
 }
